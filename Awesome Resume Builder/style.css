@@ -20,7 +20,7 @@
 
 *{
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #78a8cb;
 
 
 }
@@ -706,4 +706,15 @@ a{
     #welcome-screen{
         opacity: 0;
     }
+}
+.form-control form-control-sm{
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
 }
